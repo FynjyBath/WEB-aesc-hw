@@ -5,18 +5,9 @@ body {
     text-align: center;
 }
 
-th {
-    padding: 2%;
-    width: auto;
-}
-
-tr {
-    width: auto;
-}
-
-table {
-    margin: 0 auto;
-    width: auto;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 header {
@@ -55,6 +46,12 @@ nav ul li a:hover {
     background-color: #ddd;
 }
 
-.menu-btn {
-    display: none;
+.single-line-header {
+    padding: 2%;
+    font-size: 2vw;
+}
+
+.header {
+    margin: 0 auto;
+    width: 90%;
 }
