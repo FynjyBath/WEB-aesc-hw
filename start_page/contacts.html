@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Menu Template</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header>
+        <img src="../logo.png" alt="Description of the image">
         <h1>Роль стадного чувства в жизни учащихся СУНЦ МГУ</h1>
     </header>
     <nav>
@@ -19,7 +20,6 @@
         </ul>
     </nav>
     <button class="menu-btn">Меню</button>
-    
     <div class="tab">
         <button class="tablinks" onclick="openTab(event, 'contactInfo')">Контактная информация</button>
       </div>
@@ -29,33 +29,6 @@
         <p><a href="https://www.facebook.com/creator1">Facebook Профиль Создателя 1</a></p>
         <p><a href="https://www.instagram.com/creator2">Instagram Профиль Создателя 2</a></p>
         <p><a href="mailto:creator@example.com">Электронная почта Создателя 3</a></p>
-      </div>
-      
-      <script>
-      function openTab(evt, tabName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      
-      // Получаем все элементы с классом "tablinks" и добавляем слушатель событий для каждого из них
-      var allTabLinks = document.querySelectorAll('.tablink');
-      allTabLinks.forEach(function(tabLink) {
-        tabLink.addEventListener('click', function() {
-          openTab(event, this.getAttribute('data-target'));
-        });
-      });
-      
-      // Открываем первую вкладку при загрузке страницы
-      document.getElementById('contactInfo').style.display = 'block';
-      </script>
+    </div>
 </body>
 </html>
