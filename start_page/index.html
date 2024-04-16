@@ -8,16 +8,22 @@
 </head>
 <body>
     <header>
-        <h1>Роль стадного чувства в жизни учащихся СУНЦ МГУ</h1>
+        <h1>Simple Menu Template</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Основная информация</a></li>
-            <li><a href="articles.html">Статьи</a></li>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="">Х</a></li>
+            <li><a href="">У</a></li>
             <li><a href="contacts.html">Контакты</a></li>
-            <li><a href="resourses.html">Источники</a></li>
         </ul>
     </nav>
     <button class="menu-btn">Меню</button>
+
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', function() {
+            document.querySelector('nav').style.display = 'block';
+        });
+    </script>
 </body>
 </html>
