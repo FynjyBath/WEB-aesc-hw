@@ -53,20 +53,28 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 2%;
+    margin-bottom: 3%;
 }
 
-nav ul li a {
+nav ul li button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
     text-decoration: none;
     color: #ffffff;
-    padding: 5px 10px;
+    background-color: #333;
+    border: 2px solid #202020;
     border-radius: 5px;
-    transition: background-color 0.3s;
-    border: 2px solid #333;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li button:hover {
     background-color: #ddd;
+    border-color: #fff;
     color: #000;
 }
 
