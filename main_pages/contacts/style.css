@@ -104,6 +104,11 @@ nav ul li button:hover {
     color: #ffffff;
 }
 
-.reftext {
-    color: #9bf2ff;
+.link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ffa200;
 }
