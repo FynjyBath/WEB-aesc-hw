@@ -11,16 +11,21 @@ img {
     height: auto;
 }
 
-.article-link {
-    display: block;
-    margin-bottom: 10px;
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.text-h1 {
+    color: #FF5733;
+    text-align: center;
 }
 
-.article-link:hover {
-    color: #ffa200;
+.text-p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0;
+    padding: 0 20px;
+    border-left: 5px solid #337AB7;
 }
 
 .table-container {

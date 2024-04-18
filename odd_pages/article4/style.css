@@ -11,18 +11,6 @@ img {
     height: auto;
 }
 
-.article-link {
-    display: block;
-    margin-bottom: 10px;
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.article-link:hover {
-    color: #ffa200;
-}
-
 .table-container {
     display: flex;
     justify-content: center;
