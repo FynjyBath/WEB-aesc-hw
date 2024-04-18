@@ -4,6 +4,27 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+
+    line-height: 1.6; /* delete*/
+    margin: 20px; /* delete*/
+    color: white; /* delete*/
+}
+
+h1 { /* delete*/
+    color: #FF5733; /* delete*/
+    text-align: center; /* delete*/
+} /* delete*/
+
+p { /* delete*/
+    margin-bottom: 20px; /* delete*/
+    color: white;
+} /* delete*/
+
+blockquote {
+    font-style: italic;
+    margin: 0;
+    padding: 0 20px;
+    border-left: 5px solid #337AB7;
 }
 
 img {
