@@ -17,7 +17,7 @@ img {
 }
 
 .link:hover {
-    color: #ffa200;
+    color: #000;
 }
 
 .table-articles {
@@ -33,6 +33,7 @@ img {
 
 td {
     padding: 10px;
+    width: 40%;
 }
 
 hr {
@@ -107,6 +108,11 @@ nav ul li button:hover {
 .h1-text {
     color: #ffffff;
     text-align: center;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: #595959;
 }
 
 .text {
