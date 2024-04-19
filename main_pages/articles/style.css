@@ -20,15 +20,15 @@ img {
     color: #ffa200;
 }
 
+.table-articles {
+    border-collapse: separate;
+    border-spacing: 10%;
+    width: 92%;
+}
 
 .table-container {
     display: flex;
     justify-content: center;
-}
-
-table {
-    border-collapse: collapse;
-    width: 92%;
 }
 
 td {
@@ -104,10 +104,9 @@ nav ul li button:hover {
     color: #ffffff;
 }
 
-.index-text {
-    font-size: 2vw;
+.h1-text {
     color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 
 .text {
