@@ -7,8 +7,8 @@ body {
 }
 
 img {
-    max-width: 100%;
     height: auto;
+    width: 100%;
 }
 
 .link {
@@ -27,6 +27,7 @@ table {
 
 .table-articles {
     border-collapse: separate;
+    justify-items: top;
     border-spacing: 10%;
     width: 92%;
 }
@@ -38,7 +39,13 @@ table {
 
 td {
     padding: 10px;
-    width: 35% auto;
+    width: 35%;
+}
+
+.td-articles {
+    padding: 10px;
+    width: 35%;
+    border: 1px solid black;
 }
 
 hr {
