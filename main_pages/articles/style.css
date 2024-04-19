@@ -20,6 +20,11 @@ img {
     color: #000;
 }
 
+table {
+    border-collapse: collapse;
+    width: 92%;
+}
+
 .table-articles {
     border-collapse: separate;
     border-spacing: 10%;
@@ -33,7 +38,7 @@ img {
 
 td {
     padding: 10px;
-    width: 35%;
+    width: 35% auto;
 }
 
 hr {
@@ -105,7 +110,7 @@ nav ul li button:hover {
     color: #ffffff;
 }
 
-.h1-text {
+.h2-text {
     color: #ffffff;
     text-align: center;
 }
@@ -115,10 +120,8 @@ td:hover {
     background-color: #595959;
 }
 
-.text {
+.index-text {
+    font-size: 2vw;
     color: #ffffff;
-}
-
-.reftext {
-    color: #9bf2ff;
+    text-align: left;
 }
