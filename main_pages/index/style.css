@@ -23,6 +23,7 @@ table {
 
 td {
     padding: 10px;
+    width: 35% auto;
 }
 
 hr {
@@ -106,4 +107,9 @@ nav ul li button:hover {
 
 .reftext {
     color: #9bf2ff;
+}
+
+.h2-text {
+    color: #ffffff;
+    text-align: center;
 }
