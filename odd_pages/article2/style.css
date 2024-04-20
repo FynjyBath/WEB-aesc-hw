@@ -115,6 +115,7 @@ nav ul li button:hover {
     font-size: 1.5vw;
 }
 
-.reftext {
-    color: #9bf2ff;
+.td-equal {
+    padding: 10px;
+    width: 30%;
 }
