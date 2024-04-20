@@ -62,8 +62,8 @@ nav ul li {
 
 nav ul li button {
     display: inline-block;
+    font-size: 1.3vw;
     padding: 10px 20px;
-    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
