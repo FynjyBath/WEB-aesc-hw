@@ -42,7 +42,7 @@ header {
 nav {
     background-color: #202020;
     padding: 10px 20px;
-    text-align: center;
+    text-align: left;
     position: sticky;
     top: 0;
 }
