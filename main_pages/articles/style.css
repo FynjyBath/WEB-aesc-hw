@@ -17,6 +17,7 @@ img {
 }
 
 .link {
+    font-size: 2vw;
     color: #ffffff;
     transition: color 0.3s ease;
 }
