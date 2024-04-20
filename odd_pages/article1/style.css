@@ -79,7 +79,7 @@ nav ul li {
 nav ul li button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
@@ -123,6 +123,8 @@ nav ul li button:hover {
 
 .text {
     color: #ffffff;
+    text-align: center;
+    font-size: 1.5vw;
 }
 
 .reftext {

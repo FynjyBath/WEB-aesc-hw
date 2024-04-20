@@ -42,7 +42,7 @@ header {
 nav {
     background-color: #202020;
     padding: 10px 20px;
-    text-align: center;
+    text-align: left;
     position: sticky;
     top: 0;
 }
@@ -62,7 +62,6 @@ nav ul li {
 nav ul li button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
@@ -74,6 +73,7 @@ nav ul li button {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+    font-size: 1.3vw;
 }
 
 nav ul li button:hover {
