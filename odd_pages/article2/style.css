@@ -77,6 +77,8 @@ nav ul li button {
     cursor: pointer;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 nav ul li button:hover {
