@@ -142,3 +142,8 @@ td:hover {
     color: #ffffff;
     text-align: left;
 }
+
+.main-button {
+    background-color: #202020;
+    border-color: #ddd;
+}

@@ -112,3 +112,8 @@ nav ul li button:hover {
     color: #ffffff;
     text-align: center;
 }
+
+.main-button {
+    background-color: #202020;
+    border-color: #ddd;
+}
