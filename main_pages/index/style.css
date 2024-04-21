@@ -64,6 +64,7 @@ nav ul li button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1.3vw;
+    min-height: 5%;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     font-weight: bold;
@@ -107,10 +108,6 @@ nav ul li button:hover {
 
 .text {
     color: #ffffff;
-}
-
-.reftext {
-    color: #9bf2ff;
 }
 
 .h2-text {
