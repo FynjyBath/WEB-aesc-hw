@@ -147,3 +147,12 @@ td:hover {
     background-color: #202020;
     border-color: #ddd;
 }
+
+.link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #000;
+}
