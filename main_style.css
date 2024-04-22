@@ -84,3 +84,8 @@ img {
 .link:hover {
     color: #919191;
 }
+
+.main-button {
+    background-color: #202020;
+    border-color: #ddd;
+}
