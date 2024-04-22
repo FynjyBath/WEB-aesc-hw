@@ -32,13 +32,6 @@ td {
     padding: 10px;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    background-color: #000;
-    margin: 0;
-}
-
 .text {
     color: #ffffff;
     text-align: center;

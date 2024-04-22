@@ -34,13 +34,6 @@ td {
     border: 1px solid black;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    background-color: #000;
-    margin: 0;
-}
-
 .h2-text {
     color: #ffffff;
     text-align: center;

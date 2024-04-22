@@ -95,3 +95,10 @@ img {
     color: #ffffff;
     text-align: left;
 }
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin: 0;
+}
