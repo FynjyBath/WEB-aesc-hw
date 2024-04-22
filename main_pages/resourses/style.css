@@ -40,12 +40,19 @@ input {display: none;}
     background-color: #474747;
 }
 
+.tabs__tab {
+    text-align: center;
+}
+
 .tabs__tab:checked+.tabs__title {
     color: #000;
     background-color: #ddd;
 }
 
-.tabs__tab:checked+.tabs__title+.tabs__text {display: flex;}
+.tabs__tab:checked+.tabs__title+.tabs__text {
+    display: inline-block;
+    text-align: center;
+}
 .tabs__title:hover {opacity: 0.9;}
 
 ul {
