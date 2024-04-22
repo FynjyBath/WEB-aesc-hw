@@ -11,11 +11,6 @@ body {
     color: white;
 }
 
-table {
-    border-collapse: collapse;
-    width: 92%;
-}
-
 td {
     padding: 10px;
 }

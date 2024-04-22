@@ -23,11 +23,6 @@ blockquote {
     border-left: 5px solid #337AB7;
 }
 
-table {
-    border-collapse: collapse;
-    width: 92%;
-}
-
 td {
     padding: 10px;
 }
