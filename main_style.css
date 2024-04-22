@@ -89,3 +89,9 @@ img {
     background-color: #202020;
     border-color: #ddd;
 }
+
+.index-text {
+    font-size: 2vw;
+    color: #ffffff;
+    text-align: left;
+}
