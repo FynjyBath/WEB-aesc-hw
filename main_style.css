@@ -74,3 +74,13 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.link {
+    font-size: 2vw;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #919191;
+}
