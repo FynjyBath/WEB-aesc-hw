@@ -6,19 +6,9 @@ body {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .text-p {
     margin-bottom: 20px;
     color: white;
-}
-
-.table-container {
-    display: flex;
-    justify-content: center;
 }
 
 table {
