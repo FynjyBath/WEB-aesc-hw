@@ -114,3 +114,7 @@ table {
     border-collapse: collapse;
     width: 92%;
 }
+
+.text {
+    color: #ffffff;
+}
